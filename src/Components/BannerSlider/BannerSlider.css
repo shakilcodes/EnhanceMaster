@@ -1,0 +1,34 @@
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 4px;
+    background-color: #ccc;
+    overflow: hidden;
+  }
+  
+  .slider-line {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #ff0000;
+    transition: left 1s linear; /* Adjust timing and easing as needed */
+  }
+  
+  .image-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+  }
+  
